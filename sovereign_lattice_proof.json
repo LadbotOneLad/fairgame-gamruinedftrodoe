@@ -1,6 +1,16 @@
+<<<<<<< HEAD
 ﻿{
     "timestamp":  "2026-09-22T18:50:50.6761312+10:00",
     "target_path":  "C:\\robdoerootauthority",
     "merkle_root":  "8e2d28979458216bf3e4fdea04937a834d5dcbb4b12c571341cc78b108cc0d2b",
     "engine":  "powershell5.1-root-lattice"
 }
+=======
+{
+    "genesis": "e14f9a8d",
+    "operator": "Eric The Viking (PHILL)",
+    "merkle_root": "1ef297e41a1f762927147c8314c9d52a5fbca1ad44a5ec56f1aec86c1ea88bed",
+    "algorithm": "SHA3-256 Byzantine Lattice Consensus",
+    "total_nodes_hashed": 104
+}
+>>>>>>> a4cc535a4 (cryptography(lattice): locked Merkle root 1ef297e41a1f7629...)
