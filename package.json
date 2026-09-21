@@ -7,5 +7,16 @@
   "dependencies": {
     "rss-parser": "^3.13.0",
     "serialport": "^12.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "hardhat": "^3.17.0"
   }
 }
