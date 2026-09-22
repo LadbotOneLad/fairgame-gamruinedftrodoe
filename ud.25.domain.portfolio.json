@@ -1,0 +1,10 @@
+﻿{
+    "canonicalRootHashHex":  "0x78b297cf46aa9dd8f02abe044c630d4e5123e78bec55a2e63203e6c4e0245d19",
+    "timestamp":  "2026-09-22T12:03:41Z",
+    "operator":  "robdoeAi",
+    "assetClass":  "Unstoppable Domains (UD) ERC-721 Portfolio",
+    "securityClearing":  "Fully Anchored \u0026 Indexed",
+    "schemaVersion":  "2035.1.0",
+    "totalDeeds":  25,
+    "lattice":  "Omega-Hardhat-Config"
+}
