@@ -1,0 +1,24 @@
+﻿{
+    "timestamp":  "2026-09-22T16:31:21Z",
+    "identities":  [
+                       {
+                           "email":  "kcufsihtliametihs001@gmail.com",
+                           "handle":  "LadbotOneLad"
+                       },
+                       {
+                           "email":  "backupsonbackupsrobby@gmail.com",
+                           "handle":  "backupsonbackups-cyber"
+                       }
+                   ],
+    "targetDomain":  "robdoe.com",
+    "dnsRecords":  {
+                       "aRecords":  "127.0.0.1",
+                       "nsRecords":  [
+                                         "ns1.unstoppabledomains.com",
+                                         "ns2.unstoppabledomains.com"
+                                     ],
+                       "txtRecords":  "v=spf1 include:_spf.google.com ~all"
+                   },
+    "schemaVersion":  "2035.1.0",
+    "icannResolver":  "System Native DNS / Root Authority"
+}
