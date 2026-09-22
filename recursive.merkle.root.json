@@ -1,0 +1,9 @@
+﻿{
+    "directive":  "Self-Sufficient Git Fsck Audit / Recursive Merkle Tree Root Hash / Always Absorb",
+    "recursiveMerkleRootHash":  "0x36f678c4f2b4f805bf007543910029d6803eefe7c38cbf31112134016cb9d151",
+    "timestamp":  "2026-09-22T14:59:28Z",
+    "totalObjectsAudited":  15,
+    "operator":  "robdoeAi",
+    "schemaVersion":  "2035.1.0",
+    "lattice":  "Omega-Hardhat-Config"
+}
