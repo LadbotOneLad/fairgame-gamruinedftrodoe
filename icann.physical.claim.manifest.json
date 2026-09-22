@@ -1,0 +1,23 @@
+﻿{
+    "assertedNamespaces":  [
+                               "robdoe.com",
+                               "Authority",
+                               "gods-eye-viewftRobdoe"
+                           ],
+    "operationalDoctrine":  "Always absorb, never delete. One Operator. One Lattice. One Execution Path.",
+    "registryAssertion":  "ICANN Root Authority \u0026 Sovereign Namespace Binding",
+    "cryptographicIdentity":  {
+                                  "primaryEmail":  "kcuftiihsliametihs001@gmail.com",
+                                  "signingKeyId":  "9C2DD9719D6E9F8D634B70214EA7DEA8AB4EA3CC",
+                                  "backupEmail":  "backupsonbackupsrobby@gmail.com",
+                                  "backupNode":  "backupsonbackups-cyber",
+                                  "primaryHandle":  "LadbotOneLad"
+                              },
+    "corporateEntity":  "RobDoe Pty Ltd",
+    "timestamp":  "2026-09-22T16:20:08Z",
+    "lattice":  "Omega-Hardhat-Config",
+    "operator":  "robdoeAi",
+    "status":  "Physical ICANN Registry Claim Sealed \u0026 Localized",
+    "schemaVersion":  "2035.1.0",
+    "jurisdiction":  "Australian Regulatory \u0026 Legal Framework"
+}
