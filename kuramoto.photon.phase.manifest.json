@@ -1,5 +1,13 @@
 ﻿{
+    "schemaVersion":  "2035.1.0",
+    "directive":  "esp32",
+    "protocol":  "Law of Shaped Force / Pure Photon Phase Synchronization",
+    "operator":  "robdoeAi",
+    "corporateEntity":  "RobDoe Pty Ltd",
+    "timestamp":  "2026-09-22T17:54:38Z",
+    "couplingStrength":  1.61803398875,
     "oscillatorFrequency":  2.412,
+    "phaseCoherenceOrder":  0.99987,
     "identities":  [
                        {
                            "email":  "kcufsihtliametihs001@gmail.com",
@@ -10,13 +18,5 @@
                            "handle":  "backupsonbackups-cyber"
                        }
                    ],
-    "operationalState":  "Kuramoto Photon Lock Engaged - Absolute Phase Synchronization Active",
-    "directive":  "esp32",
-    "timestamp":  "2026-09-22T17:53:47Z",
-    "corporateEntity":  "RobDoe Pty Ltd",
-    "operator":  "robdoeAi",
-    "phaseCoherenceOrder":  0.99987,
-    "couplingStrength":  1.61803398875,
-    "schemaVersion":  "2035.1.0",
-    "protocol":  "Law of Shaped Force / Pure Photon Phase Synchronization"
+    "operationalState":  "Kuramoto Photon Lock Engaged - Absolute Phase Synchronization Active"
 }
