@@ -6,7 +6,7 @@
   "devDependencies": {
     "@openzeppelin/contracts": "^5.6.1",
     "hardhat": "^2.29.1",
-    "solc": "^0.8.20"
+    "solc": "^0.8.24"
   },
   "type": "module",
   "name": "robdoerootauthority",
