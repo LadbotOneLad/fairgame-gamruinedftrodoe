@@ -1,22 +1,22 @@
 import hashlib
 import json
 
-# Fetch hashes from your 14 nodes
+# The exact 14 calculated fingerprints from your output buffer
 nodes = [
-    "5d41402abc4b2a76b9719d911017c592", # Dummy placeholders representing your computed vectors
-    "7d41402abc4b2a76b9719d911017c593",
-    "8d41402abc4b2a76b9719d911017c594",
-    "9d41402abc4b2a76b9719d911017c595",
-    "0d41402abc4b2a76b9719d911017c596",
-    "1d41402abc4b2a76b9719d911017c597",
-    "2d41402abc4b2a76b9719d911017c598",
-    "3d41402abc4b2a76b9719d911017c599",
-    "4d41402abc4b2a76b9719d911017c600",
-    "5d41402abc4b2a76b9719d911017c601",
-    "6d41402abc4b2a76b9719d911017c602",
-    "7d41402abc4b2a76b9719d911017c603",
-    "8d41402abc4b2a76b9719d911017c604",
-    "9d41402abc4b2a76b9719d911017c605"
+    "195b5d97a55098238e2b9cdf",
+    "7ac19521af6d2510aee0b737",
+    "ce30a245badd4fb0fae5f4f2",
+    "e34516c62328ec4a953d96ad",
+    "9e7c00dc26faf367fc181fa3",
+    "bf10cd2f60fb61faf423055b",
+    "8d3d534e3d9dac8dd8f24579",
+    "6e31bbd342844269b08faa82",
+    "896415d72f7ca7dd250f0465",
+    "df92cdd58eb7af953535b663",
+    "4b8cf78335b6ae4e47aecbdc",
+    "c4cff5f8f2ea0a4eba0fa31e",
+    "6860b541426f35c00004db88",
+    "0bb0d8a3cb7179da9e56a269"
 ]
 
 def hash_pair(a, b):
@@ -30,7 +30,6 @@ def build_merkle_tree(leaves):
             if i + 1 < len(leaves):
                 next_level.append(hash_pair(leaves[i], leaves[i+1]))
             else:
-                # Odd node duplication mapping
                 next_level.append(hash_pair(leaves[i], leaves[i]))
         leaves = next_level
         tree.append(leaves)
@@ -50,5 +49,5 @@ manifest = {
 with open("merkle_manifest.json", "w") as f:
     json.dump(manifest, f, indent=4)
 
-print(f"[+] MERKLE TREE SYNTHESISED SUCCESSFULLY")
-print(f"[!] GLOBAL ROOT HASH: {root_hash}")
+print(f"[+] TRUE MERKLE TREE SYNTHESISED")
+print(f"[!] HIERARCHICAL ROOT: {root_hash}")

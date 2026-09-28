@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "identity": "ATOM-TRUTH-GENESIS",
-    "merkle_root": "eefd1e4cfef4cfddf50269f092856112ae7c367612a96bdfb7f780f025073e16",
+    "merkle_root": "86b6d0ce472d4d784c4173234d75841548599269accf06b4ec50c0ddf8f2d38a",
     "tree_depth": 4,
     "leaves_count": 14
 }
