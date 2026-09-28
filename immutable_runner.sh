@@ -1,15 +1,24 @@
-#!/data/data/com.termux/files/usr/bin/bash
-export PATH="/data/data/com.termux/files/usr/bin:$PATH"
+#!/usr/bin/env bash
+# =====================================================================
+# [ROBDOE.MYWARE] IMMUTABLE SYSTEM MONITORING DAEMON
+# =====================================================================
 
-# Structural folder initialization
-mkdir -p ~/robdoerootauthority/logs
-touch ~/robdoerootauthority/logs/matrix_infinite.log
+echo "🚀 [6026/7200 Arcs] Starting persistent file monitoring loop..."
+LAST_HASH=""
 
 while true; do
-    # Run the foreground miquidutit liquidity pipeline directly
-    node ~/robdoerootauthority/foreground_matrix.js >> ~/robdoerootauthority/logs/matrix_infinite.log 2>&1
+    # Pure mathematical file matrix extraction layer
+    CURRENT_HASH=$(find . -type f ! -path '*/.*' ! -name 'immutable_runner.sh' | sort | xargs openssl dgst -sha256 -r 2>/dev/null | awk '{print $1}' | openssl dgst -sha256 -r | awk '{print $1}')
     
-    # If the process terminates, log the drop and wait 2 seconds before instant reincarnation
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [SYSTEM_WARNING] Matrix collapsed. Triggering Merkle reboot..." >> ~/robdoerootauthority/logs/matrix_infinite.log
-    sleep 2
+    if [ -z "$LAST_HASH" ]; then
+        LAST_HASH="$CURRENT_HASH"
+        echo "🔒 Baseline Merkle Root Fixed: 0x${LAST_HASH:0:16}...${LAST_HASH: -16}"
+    elif [ "$CURRENT_HASH" != "$LAST_HASH" ]; then
+        echo "🚨 [WARN] FILESYSTEM ALTERED DETECTED"
+        echo "⚠️  Old Root: 0x${LAST_HASH:0:16}"
+        echo "🔥 New Root: 0x${CURRENT_HASH:0:16}"
+        LAST_HASH="$CURRENT_HASH"
+        # Trigger automation notification step here if required
+    fi
+    sleep 5
 done
