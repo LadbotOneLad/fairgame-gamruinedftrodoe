@@ -1,0 +1,19 @@
+{
+    "engine": "MYWARE_BLOB_MERKLE_V2",
+    "global_blob_root": "59c43f2e875efc8fc9b70e7af43734d9af244488c8fae81e0cc5222aa3ed94f0",
+    "structural_topology": {
+        "Layer_0_Leaves": [
+            "7a025ab4b38bf0c166bf8528836c2d378b1aaa1b958de2b5af3b4e09d7507b20",
+            "c8e32969e35b9d31172cd20607dbb47bbf278ae79a580ca910d6433366eb9786",
+            "c150df09577fa0ef1fa425405b840a2c55a901da64626f85d83e3ec07952ecf2",
+            "936da95e43999856d15f86ab7868607ba3f6ffdcd33f3961b3c43619d9a70a68"
+        ],
+        "Layer_1_Nodes": [
+            "0fb8b705d6a9d091bdc26ed853ccaf90c160df05a67f3890d546980fbfab1ef6",
+            "316b7f8387639dcd6de042d31d19bae88e78d0b2438885d7f3d1a158a35afb17"
+        ],
+        "Layer_2_Nodes": [
+            "59c43f2e875efc8fc9b70e7af43734d9af244488c8fae81e0cc5222aa3ed94f0"
+        ]
+    }
+}
