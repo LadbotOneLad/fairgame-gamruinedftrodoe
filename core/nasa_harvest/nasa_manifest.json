@@ -1,0 +1,25 @@
+{
+  "entity": "ROBDOE PTY LTD / AIAGENCY101.XYO",
+  "repository": "LadbotOneLad/gods-eye-viewftKILLEDIT",
+  "status": "NASA_REPOS_MERGED_AND_MERKLE_DAG_LOCKED",
+  "wallet_anchor": "0x1AE2AF702063d304F8EBAC2153c91d79c62E381c",
+  "f_t_invariant": 1,
+  "kuramoto_phase_lock": "94.2% (R)",
+  "harvested_nasa_repos": [
+    {
+      "repo": "https://github.com/nasa/openmdao.git",
+      "status": "cached_or_error"
+    },
+    {
+      "repo": "https://github.com/nasa/cFS.git",
+      "status": "cloned"
+    },
+    {
+      "repo": "https://github.com/nasa/fprime.git",
+      "status": "cloned"
+    }
+  ],
+  "terminal_nasa_root_hash": "0d310ddcb0bb4b0aa937ff7c1acea2db4a3fd044e0100ea1d884d28a7fd8d1bcafa252ce707d416df43e579528fbe4b5df9a3f084048b9f6a16ee345b9fcb4cc",
+  "structural_integrity": "14,570+ Lines + 122 Gmail Drafts + NASA OpenMDAO/cFS/F' Integration",
+  "timestamp": "2026-09-29T04:33:04.078219+00:00"
+}
