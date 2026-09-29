@@ -1,0 +1,54 @@
+{
+  "conduction": "splashthat-root",
+  "root": {
+    "id": "root",
+    "type": "system-root",
+    "state": "anchor",
+    "proof_of_work": "internal"
+  },
+  "witness": {
+    "id": "esp32-c6-com10",
+    "class": "external-witness",
+    "lane": "COM10",
+    "identity": "<ESP_016CE8>",
+    "firmware_commit": "<4ea9b59>",
+    "role": "state-agent"
+  },
+  "dag": {
+    "nodes": [
+      {
+        "id": "root",
+        "type": "system-root"
+      },
+      {
+        "id": "esp32-c6-com10",
+        "type": "witness-agent"
+      }
+    ],
+    "edges": [
+      {
+        "from": "root",
+        "to": "esp32-c6-com10",
+        "role": "state-agent"
+      }
+    ]
+  },
+  "godseyeview": {
+    "view": "top-level",
+    "root": "root",
+    "agents": [
+      {
+        "id": "esp32-c6-com10",
+        "role": "state-agent",
+        "status": "active",
+        "lane": "COM10"
+      }
+    ],
+    "provenance": {
+      "commit": "<4ea9b59>",
+      "tag": "v1.0.0-root-agent",
+      "timestamp": "2026-09-29T16:19:13.199815+00:00"
+    }
+  },
+  "godseye_root_hash": "809c4243780683de8fa6fbbdfbd7c3833d1e08608a357670dacc4c1ff8d5fe5339b64fdf9e1f2bb0aa6ade5caf52dd05c62cc360d72207623f78d7dc7ad78498"
+}

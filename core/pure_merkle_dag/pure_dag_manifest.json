@@ -1,0 +1,60 @@
+{
+  "conduction": "splashthat-root",
+  "permissions": "unpermissioned",
+  "root": {
+    "id": "root",
+    "type": "system-root",
+    "state": "anchor",
+    "proof_of_work": "internal",
+    "permissionless": true
+  },
+  "witness": {
+    "id": "esp32-c6-com10",
+    "class": "external-witness",
+    "lane": "COM10",
+    "identity": "<ESP_016CE8>",
+    "firmware_commit": "<4ea9b59>",
+    "role": "state-agent"
+  },
+  "dag": {
+    "nodes": [
+      {
+        "id": "root",
+        "type": "system-root",
+        "permission": "none"
+      },
+      {
+        "id": "esp32-c6-com10",
+        "type": "witness-agent",
+        "permission": "none"
+      }
+    ],
+    "edges": [
+      {
+        "from": "root",
+        "to": "esp32-c6-com10",
+        "role": "state-agent",
+        "permission": "none"
+      }
+    ]
+  },
+  "godseyeview": {
+    "view": "top-level",
+    "root": "root",
+    "agents": [
+      {
+        "id": "esp32-c6-com10",
+        "role": "state-agent",
+        "status": "active",
+        "lane": "COM10"
+      }
+    ],
+    "provenance": {
+      "commit": "<4ea9b59>",
+      "tag": "v1.0.0-root-agent",
+      "timestamp": "2026-09-29T16:22:22.991751+00:00"
+    }
+  },
+  "pure_merkle_dag_root": "8e14957e490be4247162f0ce79d6b2bd125c7bb1bce5b8ed0b47ce0b3af40df4e2632e9896e4db56d99e5ad64464eb8f4e3f3fef96637ecc5d09d8f63749a6b3",
+  "terminal_root_hash": "96054216345b0d6c9bbef38df9ecc9cff107a6dfc193d86687ab153b39c4fd73e7feec522b4f645d1c01e168fa4c2cb1164dfb7563407ccf001b0e474bfc5d10"
+}
