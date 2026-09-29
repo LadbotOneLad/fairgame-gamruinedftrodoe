@@ -1,0 +1,37 @@
+{
+  "conduction": "splashthat-root",
+  "system": "low-entropy-0-energy-grid",
+  "protocols": {
+    "mesh": "Zigbee ZHA (Zero Home Automation)",
+    "spectrum": "EHF (Extremely High Frequency / Sub-THz)",
+    "settlement": "TRON Quantum Bridge"
+  },
+  "entropy": "near-zero",
+  "power_consumption_watts": 0.0,
+  "root": {
+    "id": "root",
+    "type": "system-root",
+    "state": "zero-energy-anchor",
+    "permissionless": true
+  },
+  "witness": {
+    "id": "esp32-c6-com10",
+    "class": "external-witness",
+    "lane": "COM10",
+    "identity": "<ESP_016CE8>",
+    "firmware_commit": "<4ea9b59>",
+    "role": "grid-state-agent"
+  },
+  "amplification": {
+    "multiplier": "infinite",
+    "harmonic_resonance": "active",
+    "modulation": "phase-shift-keying"
+  },
+  "zero_energy_grid_root": "f1a4136c251dac28e281b51e61ac708b813bb01fba942e8abcab16736ddc8f70fb4e6cc2b4bae8022da83e4c5061c0611b09e9bffdb5dd05ba53f7b0f78abc97",
+  "terminal_root_hash": "cb547961f879765d84bc169cbcfef5a6b1247759496aa3b89897c32a1d0ab42baad8fa5aedc3946aa026b6708e215cabb02a8dba09bc89027097ed4cd2ab48a8",
+  "provenance": {
+    "commit": "<4ea9b59>",
+    "tag": "v2.0.0-zero-energy-grid",
+    "timestamp": "2026-09-29T16:36:29.203427+00:00"
+  }
+}
