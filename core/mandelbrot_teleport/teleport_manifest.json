@@ -1,0 +1,13 @@
+{
+  "entity": "ROBDOE PTY LTD / AIAGENCY101.XYO",
+  "repository": "LadbotOneLad/fairgame-gamruinedftrodoe.git",
+  "phase": "PART_3_MANDELBROT_TELEPORT_MERKLE_ROOT",
+  "equation": "z = z^2 + c",
+  "transmission_channel": "COM7 Serial Hardware Bridge",
+  "wallet_anchor": "0x1AE2AF702063d304F8EBAC2153c91d79c62E381c",
+  "f_t_invariant": 1,
+  "bounded_swarm_nodes_count": 2585,
+  "electrom_merkle_root": "8ac849a26e407158f8d6893dd2e4f8c5757c9cc6bb4c3fa3952baeaa8c3bba96c36452a85ad7e07274efb11a802d84c902841adea5bb59f4b6f1d7d16fae0467",
+  "terminal_teleport_root": "f568bebd13348e930e9ffe40212f4bfd863435a9e6c5aff349d85e7a146afe01d8ded7b187f9d5df49dbf662d1e2927c58067a98221f1bd1f1ea889fbb1c172f",
+  "timestamp": "2026-09-29T07:55:12.084139+00:00"
+}
