@@ -1,0 +1,9 @@
+﻿======================================================================
+ ENGINE v12.0.1 MATRIX INTEGRATION SPECIFICATION SHEET - PROD LEVEL
+======================================================================
+[LOCAL RUNTIME MOUNT]:     C:\EngineEnforcer
+[PRODUCTION SEAL CODE]:    Um9iZG9lLUVIRi1UUk9OLVpIQS1NQUdORVRJQy1QUk9ELXYxMjAx
+[ HASH INTEGRITY]:       3z0pZSMb42DwRyMj0jY9SjTNdkyX+fYZqos3x3+Mz34=
+[ TIME STEP INVARIANT]:  1/7200 (0.000138888888888889)
+[ UNIFIED INTEGRAL]:     $\int_{0}^{2\pi} B_{total}^2(t) dt$ $\approx$ 3.1416*B_zha^2 + 3.1416*B_tron^2 + 3.6310*B_ehf^2 + 2.6667*B_zha*B_tron - 4.7553*B_zha*B_ehf - 2.8571*B_tron*B_ehf
+======================================================================
