@@ -51,3 +51,52 @@ with open("merkle_manifest.json", "w") as f:
 
 print(f"[+] TRUE MERKLE TREE SYNTHESISED")
 print(f"[!] HIERARCHICAL ROOT: {root_hash}")
+# --- MERKLE DAG INTEGRITY & AINTEGRATION ENGINE ---
+import os
+import hashlib
+import json
+from datetime import datetime
+
+ROOT_DIR = os.path.expanduser("~/robdoerootauthority")
+LEDGER_FILE = os.path.join(ROOT_DIR, "STATE_PROOFS.jsonl")
+
+def hash_content(data: str) -> str:
+    return hashlib.sha256(data.encode('utf-8')).hexdigest()
+
+def get_latest_merkle_root():
+    if not os.path.exists(LEDGER_FILE):
+        return "GENESIS_ROOT_E14F9A8D"
+    
+    last_hash = ""
+    with open(LEDGER_FILE, "r") as f:
+        for line in f:
+            try:
+                record = json.loads(line.strip())
+                last_hash = record.get("merkle_hash", last_hash)
+            except:
+                pass
+    return last_hash if last_hash else "GENESIS_ROOT_E14F9A8D"
+
+def append_dag_node(event_type: str, details: str):
+    parent_hash = get_latest_merkle_root()
+    timestamp = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    
+    payload = f"{timestamp}|{parent_hash}|{event_type}|{details}"
+    current_hash = hash_content(payload)
+    
+    node_record = {
+        "timestamp": timestamp,
+        "parent_merkle_hash": parent_hash,
+        "event_type": event_type,
+        "details": details,
+        "merkle_hash": current_hash
+    }
+    
+    os.makedirs(ROOT_DIR, exist_ok=True)
+    with open(LEDGER_FILE, "a") as f:
+        f.write(json.dumps(node_record) + "\n")
+        
+    print(f"[MERKLE DAG] Integrated -> Type: {event_type} | Hash: {current_hash[:12]}...")
+
+if __name__ == "__main__":
+    append_dag_node("DAG_INTEGRATION", "Master daemon parallel chaos launcher synchronized with Merkle DAG tree.")
