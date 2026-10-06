@@ -6,3 +6,6 @@ package-lock.json
 CMakeLists.txt
 package.xml
 >>>>>>> 431c4b51e1d729ac90fe1110414d8d7c61873fb9
+.pm2/logs/
+.opencode/bin/
+robdoe_matrix_backup_*.tar.gz

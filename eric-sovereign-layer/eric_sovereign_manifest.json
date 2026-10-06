@@ -1,0 +1,9 @@
+{
+    "operator": "Eric Hadfield",
+    "entity": "RobDoe Pty Ltd",
+    "namespace": "aiagency101",
+    "architecture": "ESP32-C6 / Termux Pure-Echo",
+    "status": "fully-isolated-sovereign",
+    "timestamp": 1790718671,
+    "merkle_root": "0x70e8d024ab80594f"
+}

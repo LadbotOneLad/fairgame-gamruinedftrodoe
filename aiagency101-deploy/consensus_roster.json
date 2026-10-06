@@ -1,0 +1,33 @@
+{
+    "entity": "RobDoe Pty Ltd",
+    "namespace": "aiagency101",
+    "core_owners": [
+        {
+            "name": "Eric Hadfield",
+            "role": "Primary Architect / Operator"
+        },
+        {
+            "name": "Blake Kakura",
+            "role": "Core Consensus Node"
+        },
+        {
+            "name": "Michael Deering",
+            "role": "Core Consensus Node"
+        },
+        {
+            "name": "James Britton",
+            "role": "Core Consensus Node"
+        },
+        {
+            "name": "Jason Slade",
+            "role": "Core Consensus Node"
+        },
+        {
+            "name": "Mitchell Perry",
+            "role": "Core Consensus Node / Sovereign Owner"
+        }
+    ],
+    "hardware_target": "ESP32-C6 RISC-V",
+    "status": "locked",
+    "timestamp": 1790718007
+}

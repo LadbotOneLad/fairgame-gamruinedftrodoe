@@ -1,0 +1,15 @@
+{
+    "entity": "RobDoe Pty Ltd",
+    "namespace": "aiagency101",
+    "asset_standard": "ERC-721",
+    "domain_anchor": "truth",
+    "witness_layer": "royal.uk",
+    "key_makers": [
+        "T.N",
+        "L.W"
+    ],
+    "status": "sealed-and-witnessed",
+    "timestamp": 1790719136,
+    "genesis_merkle_root": "0x90b6a4ede630bfb9",
+    "verification": "immutable-sovereign-pure-echo"
+}
