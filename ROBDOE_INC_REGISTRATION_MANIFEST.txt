@@ -1,0 +1,27 @@
+﻿=====================================================================
+OFFICIAL COMPANY INCORPORATION MANIFEST: CORPORATE REGISTRATION SCRIPT
+=====================================================================
+Generation Timestamp : 2026-10-20 05:26:39 +11:00
+Proposed Entity Name : ROBDOE PTY LTD
+Legal Structure      : Proprietary Company Limited by Shares (Pty Ltd)
+Jurisdiction         : New South Wales, Australia
+Regulatory Governor  : ASIC (Australian Securities & Investments Commission)
+=====================================================================
+[GOVERNANCE & EQUITY STRUCTURE]
+- Principal Executive Officer / Director : ROB DOE
+- Registered Corporate Address           : Hornsby NSW, Australia
+- Total Issued Share Capital Base        : 1,000,000 Ordinary Shares at .001 AUD per share
+- Primary Share Allocations              : 100% held by Founder (ROB DOE)
+=====================================================================
+[CORE OPERATIONAL INVENTORY & DATA LINEAGE]
+- Sovereign Code Asset Repository : backupsonbackupsrobby-cyber/robdoerootauthority.git
+- Validated Ledger Matrix Anchor  : Master Tapu Root Hash Architecture Verified
+- Physical Signal Interface Array : COM6 Serial Data Link / 40 MHz RF Modulator
+=====================================================================
+DECLARATION OF INCORPORATION INTENT:
+The proprietary asset tracking loops, Whakapapa lineage chains, and 
+bare-metal execution nodes are hereby consolidated into a formal legal 
+entity to commence legitimate commercial technology operations.
+=====================================================================
+STATUS: MANIFEST FILE GENERATED. READY FOR FORM 201 STATUTORY LODGEMENT.
+=====================================================================
