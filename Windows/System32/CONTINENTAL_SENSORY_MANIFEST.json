@@ -1,0 +1,10 @@
+{
+    "TargetJurisdictions":  [
+                                "Queensland (QLD)",
+                                "Northern Territory (NT)"
+                            ],
+    "TotalObservationNodes":  12,
+    "ContinentalRootHash":  "8031e32ba35f3e86354f6922b500740c90c3f787c43f6fac53a186b86c2b22b5",
+    "Timestamp":  "2026-09-28T01:16:34.2675556+10:00",
+    "Status":  "CONTINENTAL_MESH_SYNCHRONIZED"
+}

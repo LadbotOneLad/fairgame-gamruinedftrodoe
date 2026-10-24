@@ -1,0 +1,17 @@
+{
+    "Scope":  "Australia-Wide (Omni-Continental)",
+    "Jurisdictions":  [
+                          "QLD",
+                          "NT",
+                          "NSW",
+                          "VIC",
+                          "WA",
+                          "SA",
+                          "TAS",
+                          "ACT"
+                      ],
+    "TotalObservationNodes":  24,
+    "NationalRootHash":  "ce32862aa4a30f6bc0411763dfec6b62b56e232bb0ed58f20f30fbcfa53beecf",
+    "Timestamp":  "2026-09-28T01:15:17.2850139+10:00",
+    "Status":  "CONTINENT_SYNCHRONIZED_SUUWOP"
+}

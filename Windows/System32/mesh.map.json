@@ -1,0 +1,16 @@
+﻿{
+    "root":  "C:\\WINDOWS\\system32",
+    "nodes":  [
+                  {
+                      "id":  "machine_ROBDOEAI-CORE",
+                      "kind":  "machine",
+                      "hostname":  "ROBDOEAI-CORE",
+                      "windowsUser":  "Admin",
+                      "windowsDomain":  "ROBDOEAI-CORE",
+                      "path":  "C:\\WINDOWS\\system32"
+                  }
+              ],
+    "edges":  [
+
+              ]
+}
