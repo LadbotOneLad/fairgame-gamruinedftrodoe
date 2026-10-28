@@ -1,0 +1,8 @@
+{
+  "merkle_whakapapa_roothash": "DE239BF3AF694307DCDC368A7E9704AFDAAF1871",
+  "hex_25920": "0x6540",
+  "arc_constant": 1296000,
+  "arc_expansion": 33592320000,
+  "timestamp": "2026-09-28T00:41:56Z",
+  "status": "LOCKED_VERIFIED"
+}
