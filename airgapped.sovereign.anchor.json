@@ -1,9 +1,0 @@
-﻿{
-    "directive":  "Lock Exclusion Filter / Pure Deterministic Math / Air-Gapped Sovereign Lattice",
-    "timestamp":  "2026-09-22T14:49:22Z",
-    "airGappedSha256RootHash":  "0x0eed00a59c7da6344bcb86abf34fd6b2bee2bd0583ee81d964af69677dcd5b03",
-    "operator":  "robdoeAi",
-    "schemaVersion":  "2035.1.0",
-    "lattice":  "Omega-Hardhat-Config",
-    "totalObjectsTracked":  11
-}
