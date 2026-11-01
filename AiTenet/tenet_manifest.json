@@ -1,0 +1,10 @@
+﻿{
+    "domain": "aitenet",
+    "entity": "Robdoe Pty Tld",
+    "ledger_anchor": "aiagency101.xyo",
+    "kuramoto_phase": 1.0,
+    "clock_frequency_hz": 40000000,
+    "baud_rate": 115200,
+    "whakapapa_root": "B28833959A6DCAC69AA3FE02F54D481AAEDFC6DCD88FCEB189FB0E600020B2F2",
+    "status": "ABSOLUTE_EQUILIBRIUM"
+}

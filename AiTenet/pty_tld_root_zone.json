@@ -1,0 +1,24 @@
+{
+    "Namespace":  ".pty",
+    "RegistryType":  "Sovereign Root TLD",
+    "LatticeAnchor":  "0x719a478ffa8cf8ce330555573cbd33c2e1ea39e371fcf3be862ea121458a52c1",
+    "Timestamp":  "2026-10-24T05:39:59.1102953+00:00",
+    "Epoch":  1792820399,
+    "Zones":  [
+                  {
+                      "Domain":  "*.pty",
+                      "Target":  "Local-14Node-Lattice",
+                      "Status":  "ACTIVE"
+                  },
+                  {
+                      "Domain":  "node.pty",
+                      "Target":  "COM10-ESP32-C6",
+                      "Status":  "BRIDGED"
+                  },
+                  {
+                      "Domain":  "core.pty",
+                      "Target":  "C:\\AiTenet",
+                      "Status":  "LOCKED"
+                  }
+              ]
+}
