@@ -1,0 +1,9 @@
+﻿
+# Oracle Form / Metadata Processing Matrix
+*.fmb binary
+*.fmx binary
+*.mmb binary
+*.pll binary
+*.rdf binary
+*.fmt text eol=crlf
+*.dfm text eol=crlf
