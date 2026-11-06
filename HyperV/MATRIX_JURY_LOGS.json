@@ -1,0 +1,8 @@
+{
+  "consensus_round": 25920,
+  "quorum_status": "SIGNED_AND_VERIFIED",
+  "jury_nodes": {
+    "node_01": { "vote": "COMMIT", "identity": "0x912Ca5fa7E73146E62A48A372f9Fe9517E4b6a11" },
+    "node_02": { "vote": "COMMIT", "identity": "0xICANN102301" }
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+    "SolanaBridge":  "55.00 SOL",
+    "ManifoldSteps":  "1,296,000x",
+    "LiveDeedsCount":  10005,
+    "OperatorIdentity":  "1_OF_1_ROB_DOE_OPERATOR",
+    "DeedsAnchorKey":  "0e1c2bf260dc657007003934eecfd12533c2fcc9304b107f84536fab98d19515",
+    "MasterRootHash":  "0x196a0627ff8d079f592199142acb02fdce",
+    "TotalCapital":  "1,000,000,000,000,000,000 QUNIT",
+    "HexPrecession":  25920,
+    "ActiveChainSeal":  "9369b347d24be5072bb810eefa582552569be5fa5298e29a685310d084a5660a",
+    "BFTConsensus":  "8/12 Quorum Pinned",
+    "ClockGating":  "40 MHz"
+}

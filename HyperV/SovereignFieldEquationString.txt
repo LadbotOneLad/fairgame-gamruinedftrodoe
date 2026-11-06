@@ -1,0 +1,1 @@
+E = m_lattice * invariant_base(932808725) @ cycle(1296000)

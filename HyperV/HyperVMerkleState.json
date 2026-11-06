@@ -1,0 +1,11 @@
+﻿{
+    "Version":  "2.0",
+    "Timestamp":  "2026-11-05T20:02:17+11:00",
+    "TargetDirectory":  "C:\\HyperV",
+    "MerkleRoot":  "E7AC0786668E0FF0F02B62BD04F45FF636FD82DB63B1104601C975DC005F3A67",
+    "TotalLeaves":  11,
+    "IndexType":  "SortedDictionary-BTree-MerkleDAG",
+    "Leaves":  [
+                   null
+               ]
+}

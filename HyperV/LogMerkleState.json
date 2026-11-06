@@ -1,0 +1,12 @@
+﻿{
+    "Version":  "1.0",
+    "Timestamp":  "2026-11-05T20:00:15+11:00",
+    "TargetDirectory":  "C:\\Logs",
+    "FilterCriteria":  "LastWriteTime \u003e 10/29/2026 20:00:15 (*.log)",
+    "MerkleRoot":  "0000000000000000000000000000000000000000000000000000000000000000",
+    "TotalFiles":  0,
+    "IndexType":  "SortedDictionary-BTree-MerkleDAG",
+    "Files":  [
+                  null
+              ]
+}

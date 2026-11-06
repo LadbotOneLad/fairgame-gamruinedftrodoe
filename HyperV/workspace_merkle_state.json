@@ -1,0 +1,82 @@
+﻿{
+    "TimestampUtc":  "2026-11-05T20:19:27.9025356Z",
+    "TotalFiles":  15,
+    "MasterRootSeal":  "0x80DF11645EE754BE3DCD4860443E693578EB50115F5E14A07F787166101C2142",
+    "Files":  [
+                  {
+                      "Path":  "apple_ash_profile.sh",
+                      "Bytes":  3696,
+                      "SHA256":  "5A1452CFA72850C8209305646E995E8390FB313AFF77D7887C2F67E0683B60C0"
+                  },
+                  {
+                      "Path":  "asset_tracker.py",
+                      "Bytes":  317,
+                      "SHA256":  "48E2DA4DAE791768048EFB56BF64D31CC6F02E431E16B1ED7075400A3FE60F4B"
+                  },
+                  {
+                      "Path":  "engine_runtime.log",
+                      "Bytes":  328,
+                      "SHA256":  "DE855805A535F83F3AB0C4F348521F6D6D8BE65FD5F60A38F141103BE833E497"
+                  },
+                  {
+                      "Path":  "HyperVMerkleState.json",
+                      "Bytes":  349,
+                      "SHA256":  "AED408D72294C78175828385EA285CC39C4D3F6D0C422A4C1290C26F919162D1"
+                  },
+                  {
+                      "Path":  "liquidity_manifest.json",
+                      "Bytes":  108,
+                      "SHA256":  "5AEB800550031B284565ED75BBBDC3B1AA555D9A566F9043961040189ECFA07B"
+                  },
+                  {
+                      "Path":  "live_liquidity_state.json",
+                      "Bytes":  575,
+                      "SHA256":  "DF6E37B22AF6FEC37AE967FECD71A2CCDDD5EDE0D2A808FAE63F8C7B1C8A4AD4"
+                  },
+                  {
+                      "Path":  "LogMerkleState.json",
+                      "Bytes":  418,
+                      "SHA256":  "77957D827CCBA85487D70781DE2E2F49D89E73C76C1F5EFD3AF12DBAA429D1E4"
+                  },
+                  {
+                      "Path":  "mac_zsh_profile.sh",
+                      "Bytes":  3554,
+                      "SHA256":  "01C27A510100820C094253FDA3CE1AB627A13AC7C01749B7B7A7A2AE31C5F835"
+                  },
+                  {
+                      "Path":  "mana_liquidity_ledger.json",
+                      "Bytes":  293,
+                      "SHA256":  "5FD7A38EF2C4424E400CD59B28F20AA86D08C479E019C027FDB99967A0A46248"
+                  },
+                  {
+                      "Path":  "master_lattice_manifest.json",
+                      "Bytes":  4974,
+                      "SHA256":  "7CB7CCF7282558B1CD8E6C46AA50DB1C2D74BC71066F06FF5F4A5C995CD7392F"
+                  },
+                  {
+                      "Path":  "math_language_dialects.txt",
+                      "Bytes":  723,
+                      "SHA256":  "98ED942D355814414CB2B16882A621CA9CB5598D5018F8C696E5A37475C89DFD"
+                  },
+                  {
+                      "Path":  "MATRIX_JURY_LOGS.json",
+                      "Bytes":  255,
+                      "SHA256":  "6770064EE6C30942C71F3C12398E6D469A1D802C6ACEDE0BEEA509EB321B8ED8"
+                  },
+                  {
+                      "Path":  "SovereignFieldEquationString.txt",
+                      "Bytes":  58,
+                      "SHA256":  "AECFACE68C499DFF678D05ABC597FE940C6E08915D33F3812EEDCA15EA12CA4C"
+                  },
+                  {
+                      "Path":  "state_manifest.json",
+                      "Bytes":  2017,
+                      "SHA256":  "39A16F6CE4289BA019EE871F821207995D4303777AF44B492CB5C3762861A4A0"
+                  },
+                  {
+                      "Path":  "xyo_event_ledger.json",
+                      "Bytes":  3407,
+                      "SHA256":  "1C7406B91C9C2DE172495018E219683376243BBA3B28271C8ADCE575B1661A35"
+                  }
+              ]
+}

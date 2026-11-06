@@ -1,0 +1,60 @@
+﻿{
+    "TargetAddress":  "0x89ea6db54e7f09823c92d955cf07d7c2492d5b16",
+    "TotalIndexed":  9,
+    "Events":  [
+                   {
+                       "Address":  "0x89ea6db54e7f09823c92d955cf07d7c2492d5b16",
+                       "Schema":  "network.xyo.event.bus.event",
+                       "Hash":  "868c134c5b27e916268c3389cc816a8e591dbe1408c5801e2a60141e7f9de877",
+                       "IndexedAt":  "2026-11-05T17:45:51.7109812Z"
+                   },
+                   {
+                       "Address":  "0x89ea6db54e7f09823c92d955cf07d7c2492d5b16",
+                       "Schema":  "network.xyo.event.bus.event",
+                       "Hash":  "de65546348236f400ec673893ea1b5d32adf2aa21dece3db312e984cbf91a6af",
+                       "IndexedAt":  "2026-11-05T17:45:51.7139743Z"
+                   },
+                   {
+                       "Address":  "0x89ea6db54e7f09823c92d955cf07d7c2492d5b16",
+                       "Schema":  "network.xyo.event.bus.event",
+                       "Hash":  "d79029f815c76d162d5db5040dc87f845ef3e2228c9c613e57135f0843491e05",
+                       "IndexedAt":  "2026-11-05T17:45:51.7174790Z"
+                   },
+                   {
+                       "Address":  "0x89ea6db54e7f09823c92d955cf07d7c2492d5b16",
+                       "Schema":  "network.xyo.event.bus.event",
+                       "Hash":  "38739d510b3881ef3f730bc6c7eefedd0df1061b28ffa1a51be09f6d9b652e41",
+                       "IndexedAt":  "2026-11-05T17:45:51.7194930Z"
+                   },
+                   {
+                       "Address":  "0x89ea6db54e7f09823c92d955cf07d7c2492d5b16",
+                       "Schema":  "network.xyo.event.bus.event",
+                       "Hash":  "b3951a840c3b49589e6e64b6bd0db1f0846cc2c17aefcf646f5d80d8bbde17d7",
+                       "IndexedAt":  "2026-11-05T17:45:51.7224931Z"
+                   },
+                   {
+                       "Address":  "0x89ea6db54e7f09823c92d955cf07d7c2492d5b16",
+                       "Schema":  "network.xyo.os.dapp.registered",
+                       "Hash":  "359d9d43800a0d609e31858e577be53015e1023a2d6307a6f762b486a4ea39da",
+                       "IndexedAt":  "2026-11-05T17:45:51.7244928Z"
+                   },
+                   {
+                       "Address":  "0x89ea6db54e7f09823c92d955cf07d7c2492d5b16",
+                       "Schema":  "network.xyo.os.dapp.intent",
+                       "Hash":  "44e2d5ac11fca1e6541d2db770c22929b02748e37f79de7f4a25c08b07323fa7",
+                       "IndexedAt":  "2026-11-05T17:45:51.7254939Z"
+                   },
+                   {
+                       "Address":  "0x89ea6db54e7f09823c92d955cf07d7c2492d5b16",
+                       "Schema":  "network.xyo.event.bus.event",
+                       "Hash":  "a01c7a6071b010625a0b118dffc2ba87b3e377bc9013ad19f3aa12540c8b0917",
+                       "IndexedAt":  "2026-11-05T17:45:51.7280271Z"
+                   },
+                   {
+                       "Address":  "0x89ea6db54e7f09823c92d955cf07d7c2492d5b16",
+                       "Schema":  "network.xyo.event.bus.event",
+                       "Hash":  "91e47680a0179ccd3a039217542240050fae25c62c889d1b9e2fc2121cfd1b94",
+                       "IndexedAt":  "2026-11-05T17:45:51.7330383Z"
+                   }
+               ]
+}

@@ -1,0 +1,26 @@
+﻿{
+    "IndexType":  "Sovereign B-Tree Root Index",
+    "TotalNodes":  18,
+    "MerkleRoot":  "0x3F8348610A3631DFA247433EAF9D23B4AC4E27CB08DCD8F0F9A8FB2796DD5181",
+    "GeneratedAt":  "2026-11-06 14:06:20",
+    "Keys":  [
+                 "apple_ash_profile.sh",
+                 "asset_tracker.py",
+                 "engine_runtime.log",
+                 "HyperVMerkleState.json",
+                 "kinetic_friction_matrix.json",
+                 "liquidity_manifest.json",
+                 "live_liquidity_state.json",
+                 "LogMerkleState.json",
+                 "mac_zsh_profile.sh",
+                 "mana_liquidity_ledger.json",
+                 "master_lattice_manifest.json",
+                 "math_language_dialects.txt",
+                 "MATRIX_JURY_LOGS.json",
+                 "neigong_internal_state.json",
+                 "SovereignFieldEquationString.txt",
+                 "state_manifest.json",
+                 "workspace_merkle_state.json",
+                 "xyo_event_ledger.json"
+             ]
+}
